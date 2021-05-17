@@ -11,7 +11,7 @@
  
  import NotFoundScreen from '../screens/NotFoundScreen';
  import { RootStackParamList } from '../types';
- import BottomTabNavigator from './BottomTabNavigator';
+ import MainTabNavigator from './MainTabNavigator';
  import LinkingConfiguration from './LinkingConfiguration';
  import Colors from '../constants/Colors';
  import { Ionicons, MaterialCommunityIcons, MaterialIcons, Octicons } from '@expo/vector-icons';
@@ -35,7 +35,9 @@
    return (
      <Stack.Navigator screenOptions={{ 
        headerStyle:{
-         backgroundColor: Colors.light.tint,
+           backgroundColor: Colors.light.tint,
+           elevation:0,
+           shadowOpacity:0,
        },
        headerTintColor: Colors.light.background,
        headerTitleAlign: 'left',
@@ -43,7 +45,7 @@
          fontWeight:'bold',
        }
      }}>
-       <Stack.Screen name="Root" component={BottomTabNavigator}
+       <Stack.Screen name="Root" component={MainTabNavigator}
        options={{
          title:'ThatApp',
          headerRight:() =>(
