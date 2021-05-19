@@ -3,20 +3,23 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     Container:{
         flexDirection:"row",
-        width:'100%',
         justifyContent:'space-between',
-        padding:10,
+        padding:3,
+        flexWrap: 'wrap',
 
     },
     midContainer:{
-        justifyContent:'space-around'
+        flexDirection:'column',
+        justifyContent:'space-around',
+
     },
     leftContainer:{
       flexDirection:'row',
+
     },
     avatar:{
-        width: 65,
-        height: 65,
+        width: 61,
+        height: 61,
         borderRadius:50,
         marginRight: 10,
     },
@@ -25,12 +28,21 @@ const styles = StyleSheet.create({
         fontSize: 18,
     },
     lastMessage:{
+        width:200,
+        flexWrap:"wrap",
         fontSize:16,
         color: 'grey'
     },
     time:{
-        fontSize:16,
-        color: 'grey'
+        //flexDirection:"row",
+        //justifyContent:'space-between',
+        fontSize:14,
+        fontWeight:'normal',
+        color: 'grey',
+        alignSelf:'baseline',
+        marginRight:5,
+        marginTop:9,
+
     }
 });
 export default styles;

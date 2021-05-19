@@ -12,7 +12,7 @@ export default [{
     lastMessage: {
         id: 'm1',
         content: 'Well done for doing this Prince!!',
-        createdAt: '2020-10-03T14:48:00.000Z',
+        createdAt: '2021-05-12T15:40:00.000Z',
     }
 }, {
     id: '2',
@@ -28,7 +28,7 @@ export default [{
     lastMessage: {
         id: 'm2',
         content: 'How are you doing?',
-        createdAt: '2020-10-02T15:40:00.000Z',
+        createdAt: '2021-05-02T15:40:00.000Z',
     }
 }, {
     id: '3',
@@ -38,13 +38,13 @@ export default [{
         imageUri: 'https://scontent.fkiv3-1.fna.fbcdn.net/v/t31.0-1/s200x200/22256588_1932617800312085_5686197942193420542_o.jpg?_nc_cat=110&_nc_sid=7206a8&_nc_eui2=AeF3UwtnAs3QLEJRnLSp4-hQxlokCBJZ6JPGWiQIElnok9HafHyjqv9D4bW9zeNFfNJlg5jLsvbewM7j5OD-OFy-&_nc_ohc=IxycgYSpqQEAX8EcTqI&_nc_ht=scontent.fkiv3-1.fna&tp=7&oh=640a83293bb75378958d22b633302f1b&oe=5F9F4BB7',
     }, {
         id: 'u4',
-        name: 'Alex',
-        imageUri: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.RrefRd8UAtHoAPQZJZQyNwHaDt%26pid%3DApi&f=1',
+        name: 'Dennis',
+        imageUri: 'https://media-exp1.licdn.com/dms/image/C4D03AQHpaCzaLcDtkg/profile-displayphoto-shrink_200_200/0/1607774046595?e=1626912000&v=beta&t=q8kshqoLR0X6G5IpLSFiHaywL_BiMFSuMzoKw5cpwgQ',
     }],
     lastMessage: {
         id: 'm3',
-        content: 'Hi, Prince.',
-        createdAt: '2020-10-02T14:48:00.000Z',
+        content: 'Yo, Ming.',
+        createdAt: '2021-05-02T14:48:00.000Z',
     }
 }, {
     id: '4',
@@ -59,8 +59,8 @@ export default [{
     }],
     lastMessage: {
         id: 'm4',
-        content: 'Can you review my last merge',
-        createdAt: '2020-09-29T14:48:00.000Z',
+        content: 'We need business to understand its social responsibility, that the main task and objective for a business is not to generate extra income and to become rich and transfer the money abroad, but to look and evaluate what a businessman has done for the country, for the people, on whose account he or she has become so rich.',
+        createdAt: '2021-04-29T14:48:00.000Z',
     }
 }, {
     id: '5',
@@ -76,7 +76,7 @@ export default [{
     lastMessage: {
         id: 'm5',
         content: 'I would be happy',
-        createdAt: '2020-09-30T14:48:00.000Z',
+        createdAt: '2021-04-30T14:48:00.000Z',
     }
 }, {
     id: '6',
@@ -92,7 +92,7 @@ export default [{
     lastMessage: {
         id: 'm6',
         content: 'I have a solution',
-        createdAt: '2020-10-02T15:40:00.000Z',
+        createdAt: '2021-04-02T15:40:00.000Z',
     }
 }, {
     id: '7',
@@ -108,7 +108,7 @@ export default [{
     lastMessage: {
         id: 'm7',
         content: 'How are you doing?',
-        createdAt: '2020-10-02T15:40:00.000Z',
+        createdAt: '2021-04-02T15:40:00.000Z',
     }
 }, {
     id: '8',
@@ -124,7 +124,7 @@ export default [{
     lastMessage: {
         id: 'm8',
         content: 'Dear, did you eat?',
-        createdAt: '2020-09-27T15:40:00.000Z',
+        createdAt: '2021-03-27T15:40:00.000Z',
     }
 }, {
     id: '9',
@@ -140,6 +140,6 @@ export default [{
     lastMessage: {
         id: 'm9',
         content: 'Meet me at the same place',
-        createdAt: '2020-09-25T15:40:00.000Z',
+        createdAt: '2021-03-25T15:40:00.000Z',
     },
 }]

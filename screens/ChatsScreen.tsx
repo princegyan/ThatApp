@@ -10,10 +10,10 @@ import chatRooms from '../data/ChatRooms'
 export default function ChatsScreen() {
   return (
     <View style={styles.container}>
-      <FlatList
+        <FlatList
           data={chatRooms}
           renderItem={({item}) => <ChatListItem chatRoom={item}/>}
-          keyExtractor={(item => item.id)}
+          keyExtractor={(item => item.     id)}
       />
     </View>
   );
