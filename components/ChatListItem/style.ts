@@ -5,26 +5,32 @@ const styles = StyleSheet.create({
         flexDirection:"row",
         //width:'100%',
         //justifyContent:'space-between',
-        padding:3,
-        flexWrap: 'wrap',
+        //padding:5,
+        //flexWrap: 'wrap',
+        //marginTop:5,
+        //paddingLeft:5,
+        //width:"100%",
+        
 
 
     },
     midContainer:{
-        justifyContent:'space-around',
+        //justifyContent:'space-around',
         flexDirection:'column',
+        marginTop:17,
     },
     leftContainer:{
       flexDirection:'row',
     },
     avatar:{
-        width: 62,
-        height: 62,
+        width: 60,
+        height: 60,
         borderRadius:50,
         marginRight: 10,
+        marginTop:10,
     },
     username:{
-        width:200,
+        width:230,
         fontWeight: 'bold',
         fontSize: 18,
     },
@@ -32,14 +38,16 @@ const styles = StyleSheet.create({
         width:235,
         flexWrap:"wrap",
         fontSize:16,
-        color: 'grey'
+        color: 'grey',
+        //marginTop:5,
+        
     },
     time:{
         flexDirection:'row',
         fontSize:12,
         color: 'grey',
         alignSelf: 'baseline',
-        marginRight:5,
-        marginTop:10,    }
+        //marginRight:2,
+        marginTop:25,    }
 });
 export default styles;

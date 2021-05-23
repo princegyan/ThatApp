@@ -9,6 +9,9 @@ import {ChatRoom} from '../../types'
 import styles from "./style";
 import moment from "moment";
 import { useNavigation } from '@react-navigation/native';
+import Divider from 'react-native-divider';
+
+
 
 export type ChatListItemProps ={
     chatRoom: ChatRoom;
@@ -44,6 +47,16 @@ const ChatListItem = (props:ChatListItemProps) => {
       
             </View>
 
+            <View
+                style={{
+                    borderBottomColor: 'grey',
+                    borderBottomWidth: 0.3,
+                    alignItems:'center',
+                    //width:270,
+                    marginLeft:72, 
+
+                 }}
+            />
 
         </View>
 
