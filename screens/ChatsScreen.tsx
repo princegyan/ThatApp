@@ -6,6 +6,8 @@ import ChatListItem from "../components/ChatListItem";
 
 import chatRooms from '../data/ChatRooms'
 //import styles from "../components/ChatListItem/style";
+import NewMessageButton from "../components/NewMessageButton";
+
 
 export default function ChatsScreen() {
   return (
@@ -15,6 +17,8 @@ export default function ChatsScreen() {
           renderItem={({item}) => <ChatListItem chatRoom={item}/>}
           keyExtractor={(item => item.     id)}
       />
+      <NewMessageButton />
+
     </View>
   );
 }

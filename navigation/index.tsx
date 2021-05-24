@@ -17,6 +17,8 @@
  import { Ionicons, MaterialCommunityIcons, MaterialIcons, Octicons, FontAwesome5, } from '@expo/vector-icons';
  import { View } from '../components/Themed';
 import ChatRoomScreen from '../screens/ChatRoomScreen';
+import ContactsScreen from "../screens/ContactsScreen";
+
  
  export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
    return (
@@ -82,6 +84,10 @@ import ChatRoomScreen from '../screens/ChatRoomScreen';
             </View>
           )
         })}
+      />
+      <Stack.Screen
+        name="Contacts"
+        component={ContactsScreen}
       />
        <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
      </Stack.Navigator>
