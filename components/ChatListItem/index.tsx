@@ -53,7 +53,7 @@ const ChatListItem = (props:ChatListItemProps) => {
                     borderBottomWidth: 0.3,
                     alignItems:'center',
                     //width:270,
-                    marginLeft:72, 
+                    marginLeft:60, 
 
                  }}
             />

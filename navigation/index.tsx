@@ -88,6 +88,23 @@ import ContactsScreen from "../screens/ContactsScreen";
       <Stack.Screen
         name="Contacts"
         component={ContactsScreen}
+        options={{
+          //title:'ThatApp',
+          headerRight:() =>(
+            <View style={{
+              flexDirection:'row',
+              backgroundColor: Colors.light.tint,
+              width:60,
+              justifyContent:'space-between',
+              marginRight:10,
+            }}>
+              <MaterialIcons name="search" size={25} color="white" />
+              <MaterialCommunityIcons name='dots-vertical' size={25} color="white" />
+            </View>
+  
+          )
+        }}
+        
       />
        <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
      </Stack.Navigator>

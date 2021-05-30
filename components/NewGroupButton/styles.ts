@@ -10,17 +10,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     position: 'absolute',
-    top: 90,
+    top: 20,
     left: 15,
     flexDirection:'row',
     fontWeight: 'bold',
     
 
-  },
-  content:{
-      fontWeight: 'bold',
-
-  },
+  }
 })
 
 export default styles;

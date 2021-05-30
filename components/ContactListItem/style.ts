@@ -6,6 +6,7 @@ const styles = StyleSheet.create({
     width: "100%",
     justifyContent: 'space-between',
     padding: 10,
+    left:5,
   },
   lefContainer: {
     flexDirection: 'row',
@@ -14,8 +15,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around'
   },
   avatar: {
-    width: 60,
-    height: 60,
+    width: 50,
+    height: 50,
     borderRadius: 50,
     marginRight: 15,
   },

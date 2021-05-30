@@ -18,13 +18,15 @@ const styles = StyleSheet.create({
   },
   textInput: {
     flex: 1,
-    marginHorizontal: 10
+    marginHorizontal: 10,
+    fontWeight: 'bold',
+    fontSize: 18,
   },
   icon: {
     marginHorizontal: 5,
   },
   buttonContainer: {
-    backgroundColor: Colors.light.tint,
+    backgroundColor: "#128C7E",
     borderRadius: 25,
     width: 50,
     height: 50,

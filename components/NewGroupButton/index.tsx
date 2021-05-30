@@ -1,11 +1,11 @@
 import React from 'react';
 import {TouchableOpacity, View, Text} from "react-native";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { MaterialIcons } from '@expo/vector-icons'; 
 import { Ionicons } from '@expo/vector-icons';
 import styles from "./styles";
 import { useNavigation } from '@react-navigation/native';
 
-const NewContactButton = () => {
+const NewGroupButton = () => {
 
   const navigation = useNavigation();
 
@@ -17,9 +17,9 @@ const NewContactButton = () => {
     <View style={styles.container}>
         <View style={{justifyContent:'space-between'}}>
             <TouchableOpacity onPress={onPress}>
-                <Ionicons 
-                name="ios-person-add-sharp" 
-                size={23} 
+                <MaterialIcons 
+                name="group" 
+                size={26} 
                 color="white" 
                 />
           </TouchableOpacity>
@@ -31,4 +31,4 @@ const NewContactButton = () => {
   )
 }
 
-export default NewContactButton;
+export default NewGroupButton;

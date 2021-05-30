@@ -17,15 +17,15 @@ const styles = StyleSheet.create({
     midContainer:{
         //justifyContent:'space-around',
         flexDirection:'column',
-        marginTop:17,
+        marginTop:10,
     },
     leftContainer:{
       flexDirection:'row',
     },
     avatar:{
-        width: 60,
-        height: 60,
-        borderRadius:50,
+        width: 50,
+        height: 50,
+        borderRadius:25,
         marginRight: 10,
         marginTop:10,
     },

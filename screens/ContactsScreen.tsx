@@ -3,7 +3,7 @@ import {FlatList, StyleSheet} from 'react-native';
 import { View } from '../components/Themed';
 import ContactListItem from '../components/ContactListItem';
 import NewContactButton from "../components/NewContactButton";
-
+import NewGroupButton from "../components/NewGroupButton";
 import users from '../data/Users';
 
 export default function ContactsScreen() {
@@ -16,6 +16,7 @@ export default function ContactsScreen() {
         renderItem={({ item }) => <ContactListItem user={item} />}
         keyExtractor={(item) => item.id}
       />
+      <NewGroupButton />
       <NewContactButton />
 
     </View>
