@@ -24,7 +24,7 @@ const NewGroupButton = () => {
                 />
           </TouchableOpacity>
       </View>
-      <View style={{left:70,position:'absolute',}} ><Text style={{fontWeight: 'bold', fontSize:18,}}>New Group</Text></View>
+      <View style={{left:65,position:'absolute',}} ><Text style={{fontWeight: 'bold', fontSize:18,}}>New Group</Text></View>
     </View>
 
   )
