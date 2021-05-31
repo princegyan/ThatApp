@@ -23,7 +23,8 @@ const NewContactButton = () => {
                 color="white" 
                 />
           </TouchableOpacity>
-
+          <View style={{left:50,position:'absolute',width:100,}} ><Text style={{fontWeight: 'bold', fontSize:18,}}>New contact</Text></View>
+          <View style={{left:250,position:'absolute',width:100,}}><Ionicons name="qr-code-sharp" size={29} color="#128C7E" /></View>
       </View>
 
     </View>

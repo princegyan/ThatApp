@@ -89,7 +89,7 @@ import ContactsScreen from "../screens/ContactsScreen";
         name="Contacts"
         component={ContactsScreen}
         options={{
-          //title:'ThatApp',
+          title:'Select contact',
           headerRight:() =>(
             <View style={{
               flexDirection:'row',
